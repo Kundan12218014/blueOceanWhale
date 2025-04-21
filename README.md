@@ -1,5 +1,5 @@
-```markdown
-# BlueOceanWhale - Chat Application
+````markdown
+# BlueOceanWhale - Whatsapp Style messenger
 
 ## Overview
 
@@ -7,30 +7,30 @@ BlueOceanWhale is a modern chat application built with React, TypeScript, and Fi
 
 ## Features
 
-*   **Real-time Messaging:** Send and receive messages instantly.
-*   **User Authentication:** Secure user signup and login with email/password, Google, and Facebook.
-*   **Private and Group Chats:** Create one-on-one conversations or group chats with multiple participants.
-*   **Profile Management:** Update display names and profile photos.
-*   **Dark/Light Theme:** Toggle between light and dark themes for optimal viewing experience.
-*   **Firebase Integration:** Utilizes Firebase for authentication, database, and storage.
+- **Real-time Messaging:** Send and receive messages instantly.
+- **User Authentication:** Secure user signup and login with email/password, Google, and Facebook.
+- **Private and Group Chats:** Create one-on-one conversations or group chats with multiple participants.
+- **Profile Management:** Update display names and profile photos.
+- **Dark/Light Theme:** Toggle between light and dark themes for optimal viewing experience.
+- **Firebase Integration:** Utilizes Firebase for authentication, database, and storage.
 
 ## Technologies Used
 
-*   **React:** A JavaScript library for building user interfaces.
-*   **TypeScript:** A typed superset of JavaScript that enhances code quality and maintainability.
-*   **Vite:** A fast build tool and development server for modern web projects.
-*   **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-*   **Firebase:** A comprehensive platform for building web and mobile applications, providing authentication, database, storage, and more.
-*   **Lucide React:** Beautifully simple, pixel-perfect icons for React.
-*   **React Hot Toast:** A library for displaying elegant toast notifications.
-*   **React Router DOM:** A standard library for routing in React applications.
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A typed superset of JavaScript that enhances code quality and maintainability.
+- **Vite:** A fast build tool and development server for modern web projects.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Firebase:** A comprehensive platform for building web and mobile applications, providing authentication, database, storage, and more.
+- **Lucide React:** Beautifully simple, pixel-perfect icons for React.
+- **React Hot Toast:** A library for displaying elegant toast notifications.
+- **React Router DOM:** A standard library for routing in React applications.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-*   **Node.js:** Version 18 or higher. You can download it from [nodejs.org](https://nodejs.org/).
-*   **npm:** The Node.js package manager, which comes with Node.js.
+- **Node.js:** Version 18 or higher. You can download it from [nodejs.org](https://nodejs.org/).
+- **npm:** The Node.js package manager, which comes with Node.js.
 
 ## Installation
 
@@ -53,11 +53,11 @@ Follow these steps to get the project up and running on your local machine:
 
 1.  **Firebase Project Setup:**
 
-    *   Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
-    *   Enable Email/Password, Google, and Facebook authentication methods in the Authentication section.
-    *   Create a Firestore database in test mode.
-    *   Create a Storage bucket.
-    *   Obtain your Firebase configuration object from the Firebase Console.
+    - Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+    - Enable Email/Password, Google, and Facebook authentication methods in the Authentication section.
+    - Create a Firestore database in test mode.
+    - Create a Storage bucket.
+    - Obtain your Firebase configuration object from the Firebase Console.
 
 2.  **Environment Variables:**
 
@@ -92,6 +92,7 @@ To build the application for production, run:
 ```bash
 npm run build
 ```
+````
 
 This command creates an optimized build of your application in the `dist` directory.
 
@@ -146,4 +147,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+```
+
 ```
